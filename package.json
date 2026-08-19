@@ -2,7 +2,7 @@
   "name": "youtube-coep-reproduction",
   "version": "1.0.0",
   "description": "Reproduction of Cross Origin Embedder Policy (COEP) issues with YouTube embeds.",
-  "homepage": "TODO",
+  "homepage": "https://youtube-coep-reproduction.pages.dev/",
   "bugs": {
     "url": "https://github.com/danwulff/youtube-COEP-reproduction/issues"
   },
