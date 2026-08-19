@@ -1,0 +1,28 @@
+{
+  "name": "youtube-coep-reproduction",
+  "version": "1.0.0",
+  "description": "Reproduction of Cross Origin Embedder Policy (COEP) issues with YouTube embeds.",
+  "homepage": "TODO",
+  "bugs": {
+    "url": "https://github.com/danwulff/youtube-COEP-reproduction/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danwulff/youtube-COEP-reproduction.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Wulff",
+    "url": "https://github.com/danwulff"
+  },
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "build": "sh build.sh",
+    "predeploy": "npm run build",
+    "deploy": "wrangler pages deploy dist --project-name youtube-coep-reproduction --branch main"
+  },
+  "devDependencies": {
+    "wrangler": "^4.124.0"
+  }
+}
